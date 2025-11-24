@@ -3,8 +3,10 @@
   <span style="font-size: 28px; font-weight: bold;">
     EZREAL: Enhancing Zero-Shot Outdoor Robot Navigation toward Distant Targets under Varying Visibility
   </span>
+  <br>
+  <a href="https://tianlezeng.github.io/EzReal/">Page</a> · 
+  <a href="https://arxiv.org/abs/2509.13720">Paper</a>
 </p>
-
 ---
 
 # ⭐️ **Latest Update**
