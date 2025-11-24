@@ -4,14 +4,14 @@
     EZREAL: Enhancing Zero-Shot Outdoor Robot Navigation toward Distant Targets under Varying Visibility
   </span>
   <br>
-  <a href="https://tianlezeng.github.io/EzReal/">Page</a> · 
-  <a href="https://arxiv.org/abs/2509.13720">Paper</a>
 </p>
 ---
 
 # ⭐️ **Latest Update**
 🔥 **The Core System has been fully implemented and pushed.**  
 👉 **Please check the [`master`](https://github.com/louiszengCN/EzReal/tree/master) branch for the latest code.**
+[🌐 Project Page](https://tianlezeng.github.io/EzReal/)  
+[📄 Paper on arXiv](https://arxiv.org/abs/2509.13720)
 
 ---
 
