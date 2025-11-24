@@ -5,7 +5,6 @@
   </span>
   <br>
 </p>
----
 
 # ⭐️ **Latest Update**
 🔥 **The Core System has been fully implemented and pushed.**  
@@ -13,7 +12,6 @@
 - [🌐 Project Page](https://tianlezeng.github.io/EzReal/)  
 - [📄 Paper on arXiv](https://arxiv.org/abs/2509.13720)
 
----
 
 ## 🔓 Open-Source Plan (Updated)
 
