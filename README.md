@@ -1,41 +1,57 @@
 <p align="left">
-  <img src="./src/image/ezreal.jpg"   width="120" style="vertical-align: middle; margin-right: 15px;" />
+  <img src="./src/image/ezreal.jpg" width="120" style="vertical-align: middle; margin-right: 15px;" />
   <span style="font-size: 28px; font-weight: bold;">
     EZREAL: Enhancing Zero-Shot Outdoor Robot Navigation toward Distant Targets under Varying Visibility
   </span>
 </p>
 
 ---
-## 🔓 Open-Source Plan
 
-We will open-source EZREAL in two parts:
+# ⭐️ **Latest Update**
+🔥 **The Core System has been fully implemented and pushed.**  
+👉 **Please check the [`master`](https://github.com/louiszengCN/EzReal/tree/master) branch for the latest code.**
 
-### 1️⃣ Core System (Releasing Soon)
-We will first release the **core implementation** used in the paper, including:
+---
 
-- Multi-scale tile perception  
-- Saliency-enhanced distant target detection  
-- Visibility-robust heading estimation  
-- ROS-ready implementation for simulation and real robots  
-- Real-time advanced frontier detector (>100Hz in our test)
+## 🔓 Open-Source Plan (Updated)
 
-This part is **fully functional** and supports complete testing of the paper’s main capability:  
-**Zero-Shot Outdoor Navigation (ZSON) toward distant targets under varying visibility**. \
-We also provide extensive visualization tools that clearly illustrate each core module of the system.
+We will open-source EZREAL in two stages:
 
-### 2️⃣ Planner Module (Released Later)
-We are currently improving the planner.  
-Therefore, modules related to:
+---
 
-- **Active search**
-- **Fallback navigation under long-term occlusion**
+### 1️⃣ ~~Core System (Releasing Soon)~~ **✔️ Core System Released**
 
+The following core modules have already been released on the `master` branch:
 
-will be released a bit later.
+- **Multi-scale tile perception**
+- **Saliency-enhanced distant target detection**
+- **Visibility-robust heading estimation**
+- **ROS-ready implementation for simulation and real robots**
+- **Real-time advanced frontier detector (>100Hz in test)**
 
-These planner components are *independent of the core system* and **do not affect** testing the main results.  
-The core system can work with **any external planner** that subscribes to frontier point (ROS topic with coordinate)
+This part is **fully functional** and supports complete evaluation of the paper’s main capability:
 
-More updates will follow.
+🚀 **Zero-Shot Outdoor Navigation (ZSON)**  
+📍 **Robust navigation toward distant targets**  
+🌫 **Stable performance under varying visibility & occlusion**
 
-Upating date: 11.21
+We also provide visualization tools that clearly illustrate each module of the system.
+
+---
+
+### 2️⃣ Planner Module (Coming Soon)
+
+We are currently improving the planning and active search module.
+
+The following components will be released later:
+
+- **Active search strategy**
+- **Fallback navigation for long-term occlusion**
+
+These modules are **independent** of the core system and **not required** to test the main results.
+
+The core system already works with **any existing planner** that subscribes to the chosen *frontier goal* topic.
+
+---
+
+**Updating date: 11.24**
